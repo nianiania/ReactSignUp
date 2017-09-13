@@ -17,7 +17,7 @@ class App extends Component {
 
           <div className="container App-main">
             <div className="row">
-               <Signup />
+               <Signup className="col-sm-12"/>
             </div>
           
           </div>

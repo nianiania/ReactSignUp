@@ -7,14 +7,16 @@ class Signup extends Component{
                 <div className="card Signup">
                     <div className="card-block">
                         <form>
-                          <h4> Pembayaran Via Kartu Visa/Mastercard/JCB</h4>
-                            <label className="deskripsi">
-                            Nomor Kartu
+                          <h4> Daftar akun baru sekarang </h4>
+                            <input type="email" className="email" placeholder="E-mail" />
                             <br/>
-                            <input type="text" className="nomorkartu" />
-                            </label>
-                          
-                          
+                            <input type="password" className="password" placeholder="Password" />
+                            <br/>
+                            <input type="password" className="password" placeholder="Confirm Password" />
+                            <br/>
+                            <button type="submit" className="btn btn-primary">Sign Up! </button>
+                            <br/>
+                            <a href="#">Log in </a>     
                           
 
                     </form>
